@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://s3.amazonaws.com/37assets/svn/1986-victoryheader015.jpg") no-repeat;
+    background-size: cover;
+    height:100%;
+    width:auto;
+}
+.heading {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.menu{
+    padding-top: 22px;
+    height: 80px;
+    background-color: #474747;
+}
+
+#login{
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.form-group{
+    padding:0 10px;
+}
+
+.form-inline{
+    float: right;
+}
