@@ -13,12 +13,16 @@
     color:#B1B1B1;
 }
 
+h3{
+    font-family: 'Rubik Mono One', sans-serif;
+    color:#DFDFDF;
+}
+
 .menu{
     padding-top: 22px;
     height: 80px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-color:transparent;
-
 
 }
 
@@ -33,4 +37,20 @@
 
 .form-inline{
     float: right;
+}
+
+#sign-up{
+    background-color: #E8E8E8;
+    color: #4D4D4D;
+    width: 190px;
+    margin-left: auto;
+    margin-right:auto;
+    font-family:Verdana;
+}
+
+.new-member{
+    font-size: 80px;
+    color:#8A8987;
+    margin-top: 100px;
+    text-align: center;
 }
