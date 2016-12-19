@@ -1,3 +1,7 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
 .head{
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://wallup.net/wp-content/uploads/2016/01/289409-parts-car_parts-motors-BMW-engines.jpg") no-repeat center;
     background-size: cover;
@@ -6,24 +10,29 @@
     background-color: #F7F5F8;
 }
 .heading {
-    margin-top:150px;
+    margin-top: 0;
+    padding-top:150px;
     font-size: 100px;
     text-align: center;
     font-family: 'Rubik Mono One', sans-serif;
     color:#B1B1B1;
 }
 
-h3{
+h2{
     font-size: 40px;
     font-family: 'Rubik Mono One', sans-serif;
     color:#DADADA;
 }
 
 .menu{
-    padding-top: 22px;
-    height: 80px;
+    padding-top: 0px;
+    height: 85px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    background-color:transparent;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    position: fixed;
 
 }
 
@@ -38,6 +47,7 @@ h3{
 
 .form-inline{
     float: right;
+    padding-top: 25px;
 }
 
 #sign-up{
@@ -59,3 +69,27 @@ h3{
 .button{
     height: 130px;
 }
+
+.logo{
+    margin-top: 3px;
+    margin-left:5px;
+}
+
+.about{
+    font-size:50px;
+
+}
+
+.info{
+    margin-top:20px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.info p{
+    font-size: 15px;
+    max-width: 50ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
