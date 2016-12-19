@@ -14,8 +14,9 @@
 }
 
 h3{
+    font-size: 40px;
     font-family: 'Rubik Mono One', sans-serif;
-    color:#DFDFDF;
+    color:#DADADA;
 }
 
 .menu{
@@ -43,13 +44,14 @@ h3{
     background-color: #E8E8E8;
     color: #4D4D4D;
     width: 190px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right:auto;
-    font-family:Verdana;
+    font-family:  'Rubik', sans-serif;
+    font-weight: 500;
 }
 
 .new-member{
-    font-size: 80px;
     color:#8A8987;
     margin-top: 100px;
     text-align: center;
