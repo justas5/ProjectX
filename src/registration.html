@@ -4,30 +4,31 @@
 
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <meta charset="UTF-8">
     <title>Registracija</title>
-
     <link rel="stylesheet" href="User.css">
-
 </head>
 <body>
-<div id="container_demo">
+<div>
     <div id="wrapper">
-        <div id="register" class="animate form">
-            <form action="mysuperscript.php" autocomplete="on">
+        <div>
+            <form>
                 <h1> Registracija </h1>
                 <p>
-                    <label>Vartotojo vardas:</label>
+                    <label class="input">Vartotojo vardas:</label>
                     <input id="usernamesignup" name="usernamesignup" required="required" type="text"
                            placeholder="Vartotojo vardas"/>
                 </p>
                 <p>
-                    <label> E. paštas:</label>
+                    <label class="input"> E. paštas:</label>
                     <input id="emailsignup" name="emailsignup" required="required" type="email"
                            placeholder="your@email.com"/>
                 </p>
                 <p>
-                    <label>Jūsų slaptžodis: </label>
+                    <label class="input">Jūsų slaptažodis: </label>
                     <input id="passwordsignup" name="passwordsignup" required="required" type="password"
                            placeholder="Password"/>
                 </p>
@@ -36,12 +37,11 @@
                     <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password"
                            placeholder="Password"/>
                 </p>
-                <p>
-                    <input type="submit" value="Registruotis"/>
+                <p class="confirm">
+                    <a href="userPage.html" type="button" class="btn btn-primary btn-lg btn-block" id="sign-up" >Registruotis </a>
                 </p>
-                <p>
-                    Jau narys ?
-                    <a href="#tologin" class="to_register"> Prisijunk! </a>
+                <p class="confirm">Jau narys ?
+                    <a href="index.html" type="button" class="btn btn-primary btn-lg btn-block" id="login" >Prisijunk! </a>
                 </p>
             </form>
         </div>
