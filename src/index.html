@@ -3,6 +3,8 @@
 <head>
     <title>Heading</title>
 
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -19,7 +21,7 @@
 <body>
 <div class="head">
     <div class="menu">
-       <img class="logo" src="logo.png"/>
+        <a href="index.html"><img class="logo" src="logo-light.png"/></a>
 
         <form class="form-inline">
             <div class="form-group">
@@ -30,7 +32,7 @@
                 <label class="sr-only" for="exampleInputPassword3">Password</label>
                 <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-default" id="login">Sign in</button>
+            <a href="http://autoplius.lt/" type="submit" class="btn btn-default" id="login" target="_blank">Sign in</a>
         </form>
     </div>
 
@@ -39,11 +41,46 @@
 
     <div class="new-member">
 
-        <h3>Naujas narys?</h3>
+        <h2>Naujas narys?</h2>
         <button type="button" class="btn btn-primary btn-lg btn-block" id="sign-up">Užsiregistruoti</button>
 
     </div>
 </div>
+
+
+<div class="info">
+
+    <div>  <!--ar galima nenaudoti "row"? nes su ja plotis gaunasi didesnis negu ekrano plotis.-->
+
+        <div class="col-md-4">
+            <div class="about">
+                <icon class="ion-help"></icon>
+                <h3>Kas tai?</h3>
+                <p>Sistema padėsianti jums organizuotai rūpintis savo transporto priemone, bei sekti jos priežiūra. </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="about">
+                <icon class="ion-checkmark"></icon>
+                <h3>Paprasta naudoti</h3>
+                <p>Vos keliais mygtukų paspaudimais galite pridėti automobilį savo paskyroje, bei registruoti ir sekti
+                    visas išlaidas susijusias su savo transporto priemonės ekslpoatacija</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="about">
+                <icon class="ion-happy-outline"></icon>
+                <h3>Patikima ir nemokama</h3>
+                <p>Už registraciją bei naudojimasi sveitaine mokėti nereikia! Tapk vartotoju ir mėgaukis kelionėmis be
+                    galvos skausmo.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 
 </body>
 </html>
