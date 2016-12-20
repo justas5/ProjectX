@@ -1,30 +1,31 @@
-body{
+body {
     font-family: 'Rubik', sans-serif;
 }
 
-.head{
+.head {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://wallup.net/wp-content/uploads/2016/01/289409-parts-car_parts-motors-BMW-engines.jpg") no-repeat center;
     background-size: cover;
-    height:900px;
-    width:auto;
+    height: 900px;
+    width: auto;
     background-color: #F7F5F8;
 }
+
 .heading {
     margin-top: 0;
-    padding-top:150px;
+    padding-top: 150px;
     font-size: 100px;
     text-align: center;
     font-family: 'Rubik Mono One', sans-serif;
-    color:#B1B1B1;
+    color: #B1B1B1;
 }
 
-h2{
+h2 {
     font-size: 40px;
     font-family: 'Rubik Mono One', sans-serif;
-    color:#DADADA;
+    color: #DADADA;
 }
 
-.menu{
+.menu {
     padding-top: 0px;
     height: 85px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -33,64 +34,118 @@ h2{
     margin: 0;
     top: 0;
     position: fixed;
+    display: inline;
 
 }
 
-#login{
+#login {
     margin-right: 10px;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
-.form-group{
-    padding:0 10px;
+.form-group {
+    padding: 0 10px;
 }
 
-.form-inline{
+.form-inline {
     float: right;
     padding-top: 25px;
 }
 
-#sign-up{
+#sign-up {
     background-color: #E8E8E8;
     color: #4D4D4D;
     width: 190px;
     margin-top: 20px;
     margin-left: auto;
-    margin-right:auto;
-    font-family:  'Rubik', sans-serif;
+    margin-right: auto;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
 }
 
-.new-member{
-    color:#8A8987;
+.new-member {
+    color: #8A8987;
     margin-top: 100px;
     text-align: center;
 }
-.button{
+
+.button {
     height: 130px;
 }
 
-.logo{
+.logo {
     margin-top: 3px;
-    margin-left:5px;
+    margin-left: 5px;
 }
 
-.about{
-    font-size:50px;
+.about {
+    font-size: 50px;
 
 }
 
-.info{
-    margin-top:20px;
+.info {
+    margin-top: 20px;
     text-align: center;
     max-width: 100%;
     height: 300px;
 }
 
-.info p{
+.info p {
     font-size: 15px;
     max-width: 50ch;
     margin-left: auto;
     margin-right: auto;
 }
+
+.login-menu {
+    float: right;
+    height: 100%;
+}
+
+#logout {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.welcome {
+    padding-top: 6px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 200;
+    display: inline;
+}
+
+.user-screen{
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url()*/
+}
+
+
+ul{
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 200px;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    height: 200px;
+    margin-left:60px;
+}
+
+.car-list{
+    margin-top:85px;
+
+}
+
+.car-list img    {
+    height: 300px;
+    border: 2px solid black;
+}
+
+
+
 
