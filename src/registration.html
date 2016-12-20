@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Registracija</title>
+    <link rel="stylesheet" href="User.css">
+</head>
+<body>
+<div id="container_demo">
+    <a class="hiddenanchor" id="toregister"></a>
+    <a class="hiddenanchor" id="tologin"></a>
+    <div id="wrapper">
+        <div id="register" class="animate form">
+            <form action="mysuperscript.php" autocomplete="on">
+                <h1> Registracija </h1>
+                <p>
+                    <label for="usernamesignup" class="uname" data-icon="u">Vartotojo vardas:</label>
+                    <input id="usernamesignup" name="usernamesignup" required="required" type="text"
+                           placeholder="Vartotojo vardas"/>
+                </p>
+                <p>
+                    <label for="emailsignup" class="youmail" data-icon="e"> E. paštas:</label>
+                    <input id="emailsignup" name="emailsignup" required="required" type="email"
+                           placeholder="your@email.com"/>
+                </p>
+                <p>
+                    <label for="passwordsignup" class="youpasswd" data-icon="p">Jūsų slaptžodis: </label>
+                    <input id="passwordsignup" name="passwordsignup" required="required" type="password"
+                           placeholder="Password"/>
+                </p>
+                <p>
+                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Pakartokite slaptažodį: </label>
+                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password"
+                           placeholder="Password"/>
+                </p>
+                <p class="signin button">
+                    <input type="submit" value="Sign up"/>
+                </p>
+                <p class="change_link">
+                    Jau narys ?
+                    <a href="#tologin" class="to_register"> Prisijunk! </a>
+                </p>
+            </form>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
