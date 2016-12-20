@@ -27,6 +27,17 @@ p{
     width: 25%;
 }
 .confirm{
-    margin-top: 3%;
+    margin-top: 5%;
     width: 10%;
+    color: #333;
+}
+#login{
+    background-color: #DADADA;
+    font-family: 'Rubik', sans-serif;
+    color: #4D4D4D;
+    border-color: #DADADA;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
 }
