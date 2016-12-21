@@ -14,7 +14,7 @@
 <div class="fill-in">
 
     <p>Automobilio markė</p>
-    <select class="form-control">
+    <select class="form-control" name="car-names">
         <option>Smart</option>
         <option>Tesla</option>
         <option>Daihatsu</option>
@@ -22,11 +22,11 @@
         <option>Ford</option>
     </select>
 
-    <input type="text" class="form-control" placeholder="Modelis">
-    <input type="text" class="form-control" placeholder="Remonto data">
-    <input type="text" class="form-control" placeholder="Taisytos detales">
-    <input type="text" class="form-control" placeholder="Kaina">
-    <textarea class="form-control" rows="3" placeholder="Papildomi komentarai"></textarea>
+    <input type="text" class="form-control" placeholder="Modelis" name="model">
+    <input type="text" class="form-control" placeholder="Remonto data" name="fix-date">
+    <input type="text" class="form-control" placeholder="Taisytos detales" name="fixed-parts">
+    <input type="text" class="form-control" placeholder="Kaina" name="price">
+    <textarea class="form-control" rows="3" placeholder="Papildomi komentarai" name="comment"></textarea>
 
     <button type="button" id="sendd" class="btn btn-default btn-lg btn-block">Pldyti</button>
 
